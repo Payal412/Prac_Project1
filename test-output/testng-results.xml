@@ -1,49 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-24T13:49:28 IST" name="Default suite" finished-at="2025-06-24T13:49:28 IST" duration-ms="48">
+  <suite started-at="2025-06-26T18:34:29 IST" name="Suite" finished-at="2025-06-26T18:34:43 IST" duration-ms="14067">
     <groups>
     </groups>
-    <test started-at="2025-06-24T13:49:28 IST" name="Default test" finished-at="2025-06-24T13:49:28 IST" duration-ms="48">
-      <class name="com.TestNG">
-        <test-method is-config="true" signature="bsuite()[pri:0, instance:com.TestNG@28261e8e]" started-at="2025-06-24T13:49:28 IST" name="bsuite" finished-at="2025-06-24T13:49:28 IST" duration-ms="11" status="PASS">
+    <test started-at="2025-06-26T18:34:29 IST" name="Test" finished-at="2025-06-26T18:34:43 IST" duration-ms="14067">
+      <class name="testng.OrangeHRMTest">
+        <test-method signature="openapp()[pri:1, instance:testng.OrangeHRMTest@63376bed]" started-at="2025-06-26T18:34:29 IST" name="openapp" finished-at="2025-06-26T18:34:38 IST" duration-ms="9026" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bsuite -->
-        <test-method is-config="true" signature="btest()[pri:0, instance:com.TestNG@28261e8e]" started-at="2025-06-24T13:49:28 IST" name="btest" finished-at="2025-06-24T13:49:28 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- openapp -->
+        <test-method signature="testlogo()[pri:2, instance:testng.OrangeHRMTest@63376bed]" started-at="2025-06-26T18:34:38 IST" name="testlogo" finished-at="2025-06-26T18:34:41 IST" duration-ms="3089" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- btest -->
-        <test-method is-config="true" signature="bclass()[pri:0, instance:com.TestNG@28261e8e]" started-at="2025-06-24T13:49:28 IST" name="bclass" finished-at="2025-06-24T13:49:28 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testlogo -->
+        <test-method signature="testlogin()[pri:3, instance:testng.OrangeHRMTest@63376bed]" started-at="2025-06-26T18:34:41 IST" name="testlogin" finished-at="2025-06-26T18:34:43 IST" duration-ms="1726" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bclass -->
-        <test-method is-config="true" signature="bmethod()[pri:0, instance:com.TestNG@28261e8e]" started-at="2025-06-24T13:49:28 IST" name="bmethod" finished-at="2025-06-24T13:49:28 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- testlogin -->
+        <test-method signature="CloseApp()[pri:4, instance:testng.OrangeHRMTest@63376bed]" started-at="2025-06-26T18:34:43 IST" name="CloseApp" finished-at="2025-06-26T18:34:43 IST" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- bmethod -->
-        <test-method signature="testcase1()[pri:0, instance:com.TestNG@28261e8e]" started-at="2025-06-24T13:49:28 IST" name="testcase1" finished-at="2025-06-24T13:49:28 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testcase1 -->
-        <test-method is-config="true" signature="Amethod()[pri:0, instance:com.TestNG@28261e8e]" started-at="2025-06-24T13:49:28 IST" name="Amethod" finished-at="2025-06-24T13:49:28 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Amethod -->
-        <test-method is-config="true" signature="Aclass()[pri:0, instance:com.TestNG@28261e8e]" started-at="2025-06-24T13:49:28 IST" name="Aclass" finished-at="2025-06-24T13:49:28 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Aclass -->
-        <test-method is-config="true" signature="Atest()[pri:0, instance:com.TestNG@28261e8e]" started-at="2025-06-24T13:49:28 IST" name="Atest" finished-at="2025-06-24T13:49:28 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Atest -->
-        <test-method is-config="true" signature="Asuite()[pri:0, instance:com.TestNG@28261e8e]" started-at="2025-06-24T13:49:28 IST" name="Asuite" finished-at="2025-06-24T13:49:28 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Asuite -->
-      </class> <!-- com.TestNG -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- CloseApp -->
+      </class> <!-- testng.OrangeHRMTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
