@@ -2,28 +2,52 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-26T18:34:29 IST" name="Suite" finished-at="2025-06-26T18:34:43 IST" duration-ms="14067">
+  <suite started-at="2025-06-28T18:06:52 IST" name="Suite" finished-at="2025-06-28T18:06:52 IST" duration-ms="168">
     <groups>
     </groups>
-    <test started-at="2025-06-26T18:34:29 IST" name="Test" finished-at="2025-06-26T18:34:43 IST" duration-ms="14067">
-      <class name="testng.OrangeHRMTest">
-        <test-method signature="openapp()[pri:1, instance:testng.OrangeHRMTest@63376bed]" started-at="2025-06-26T18:34:29 IST" name="openapp" finished-at="2025-06-26T18:34:38 IST" duration-ms="9026" status="PASS">
+    <test started-at="2025-06-28T18:06:52 IST" name="Test1" finished-at="2025-06-28T18:06:52 IST" duration-ms="68">
+      <class name="testng.C1">
+        <test-method is-config="true" signature="bt()[pri:0, instance:testng.C1@74d1dc36]" started-at="2025-06-28T18:06:52 IST" name="bt" finished-at="2025-06-28T18:06:52 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openapp -->
-        <test-method signature="testlogo()[pri:2, instance:testng.OrangeHRMTest@63376bed]" started-at="2025-06-26T18:34:38 IST" name="testlogo" finished-at="2025-06-26T18:34:41 IST" duration-ms="3089" status="PASS">
+        </test-method> <!-- bt -->
+        <test-method signature="abc()[pri:0, instance:testng.C1@74d1dc36]" started-at="2025-06-28T18:06:52 IST" name="abc" finished-at="2025-06-28T18:06:52 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testlogo -->
-        <test-method signature="testlogin()[pri:3, instance:testng.OrangeHRMTest@63376bed]" started-at="2025-06-26T18:34:41 IST" name="testlogin" finished-at="2025-06-26T18:34:43 IST" duration-ms="1726" status="PASS">
+        </test-method> <!-- abc -->
+      </class> <!-- testng.C1 -->
+      <class name="testng.C2">
+        <test-method signature="xyz()[pri:0, instance:testng.C2@6bbe85a8]" started-at="2025-06-28T18:06:52 IST" name="xyz" finished-at="2025-06-28T18:06:52 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testlogin -->
-        <test-method signature="CloseApp()[pri:4, instance:testng.OrangeHRMTest@63376bed]" started-at="2025-06-26T18:34:43 IST" name="CloseApp" finished-at="2025-06-26T18:34:43 IST" duration-ms="165" status="PASS">
+        </test-method> <!-- xyz -->
+        <test-method is-config="true" signature="bt()[pri:0, instance:testng.C2@6bbe85a8]" started-at="2025-06-28T18:06:52 IST" name="bt" finished-at="2025-06-28T18:06:52 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CloseApp -->
-      </class> <!-- testng.OrangeHRMTest -->
-    </test> <!-- Test -->
+        </test-method> <!-- bt -->
+      </class> <!-- testng.C2 -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-06-28T18:06:52 IST" name="Test2" finished-at="2025-06-28T18:06:52 IST" duration-ms="14">
+      <class name="testng.C1">
+        <test-method is-config="true" signature="bt()[pri:0, instance:testng.C1@231f98ef]" started-at="2025-06-28T18:06:52 IST" name="bt" finished-at="2025-06-28T18:06:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method signature="abc()[pri:0, instance:testng.C1@231f98ef]" started-at="2025-06-28T18:06:52 IST" name="abc" finished-at="2025-06-28T18:06:52 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+      </class> <!-- testng.C1 -->
+      <class name="testng.C2">
+        <test-method signature="xyz()[pri:0, instance:testng.C2@7c137fd5]" started-at="2025-06-28T18:06:52 IST" name="xyz" finished-at="2025-06-28T18:06:52 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+        <test-method is-config="true" signature="bt()[pri:0, instance:testng.C2@7c137fd5]" started-at="2025-06-28T18:06:52 IST" name="bt" finished-at="2025-06-28T18:06:52 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+      </class> <!-- testng.C2 -->
+    </test> <!-- Test2 -->
   </suite> <!-- Suite -->
 </testng-results>
