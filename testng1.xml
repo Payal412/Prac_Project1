@@ -5,6 +5,7 @@
     <classes>
       <class name="testng.C1"/>
       <class name="testng.C2"/>
+      <class name="testng.C3"/>
     </classes>
   </test> <!-- Test -->
   
@@ -12,6 +13,7 @@
     <classes>
       <class name="testng.C1"/>
       <class name="testng.C2"/>
+      <class name="testng.C3"/>
     </classes>
   </test> <!-- Test -->
   
