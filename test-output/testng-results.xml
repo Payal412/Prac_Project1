@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-29T18:22:55 IST" name="Default suite" finished-at="2025-06-29T18:22:55 IST" duration-ms="57">
+  <suite started-at="2025-06-30T16:49:56 IST" name="Default suite" finished-at="2025-06-30T16:49:56 IST" duration-ms="61">
     <groups>
     </groups>
-    <test started-at="2025-06-29T18:22:55 IST" name="Default test" finished-at="2025-06-29T18:22:55 IST" duration-ms="57">
-      <class name="testng.AssertionsDemo">
-        <test-method signature="testTitle()[pri:0, instance:testng.AssertionsDemo@4145bad8]" started-at="2025-06-29T18:22:55 IST" name="testTitle" finished-at="2025-06-29T18:22:55 IST" duration-ms="15" status="FAIL">
+    <test started-at="2025-06-30T16:49:56 IST" name="Default test" finished-at="2025-06-30T16:49:56 IST" duration-ms="61">
+      <class name="assertions.HardVsSoftAssertions">
+        <test-method signature="test_softassertions()[pri:0, instance:assertions.HardVsSoftAssertions@4145bad8]" started-at="2025-06-30T16:49:56 IST" name="test_softassertions" finished-at="2025-06-30T16:49:56 IST" duration-ms="18" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[The following asserts failed:
+expected [2] but found [1]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at testng.AssertionsDemo.testTitle(AssertionsDemo.java:33)
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [2] but found [1]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at assertions.HardVsSoftAssertions.test_softassertions(HardVsSoftAssertions.java:37)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -52,8 +52,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTitle -->
-      </class> <!-- testng.AssertionsDemo -->
+        </test-method> <!-- test_softassertions -->
+      </class> <!-- assertions.HardVsSoftAssertions -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
