@@ -3,11 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="assertions.HardVsSoftAssertions">
+      <class name="dependencyMethods.DependencyMethods1">
         <methods>
-          <include name="test_softassertions"/>
+          <include name="avdsearch"/>
+          <include name="openapp"/>
+          <include name="search"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- assertions.HardVsSoftAssertions -->
+      </class> <!-- dependencyMethods.DependencyMethods1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
