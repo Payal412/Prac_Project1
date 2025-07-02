@@ -20,12 +20,12 @@ public class AssertionsDemo {
 			System.out.println("test failed");
 		}*/
 		
-		//Assert.assertEquals(exp_title, act_title);
+		//Assert.assertEquals(exp_title, act_title); //This assertion will compare 2 values
 		
 		if(exp_title.equals(act_title))
 		{
 		    System.out.println("test passed");
-		    Assert.assertTrue(true);
+		    Assert.assertTrue(true); //This assertion will take boolean value as a parameter
 		}
 		else
 		{
