@@ -27,6 +27,7 @@ public class HardVsSoftAssertions {
 		System.out.println("Testing..");
 		
 		//Soft Assertion
+		//Soft Assert class we have to create an object
 		SoftAssert sa = new SoftAssert();
 		
 		sa.assertEquals(1, 2);
@@ -34,6 +35,8 @@ public class HardVsSoftAssertions {
 		System.out.println("Testing..");
 		System.out.println("Testing..");
 		
-		sa.assertAll(); //mandatory
+		//End of this method you have to use sa.assertAll() additionally otherwise this will always show pass
+		
+		sa.assertAll(); //mandatory // Final check — will fail the test if any above assertions failed
 	}
 }
