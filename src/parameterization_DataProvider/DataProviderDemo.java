@@ -68,10 +68,12 @@ public class DataProviderDemo {
 		driver.close();
 	}
 	
-	@DataProvider(name="dp")// DataProvider is one of the annotation start with upper character
-	                        // Imp point is whenever you create dataProvider() the name attribute must be specified bcoz if you want to refer
-	                        // Suppose this is the test login & from where this is getting the data how this test login() will know which 
-	                        // dataProvider method is providing the data so that is the reason we have to specify here dataProvider = "dp".
+	// DataProvider is one of the annotation start with upper character
+    // Imp point is whenever you create dataProvider() the name attribute must be specified bcoz if you want to refer
+    // Suppose this is the test login & from where this is getting the data how this test login() will know which 
+    // dataProvider method is providing the data so that is the reason we have to specify here dataProvider = "dp".
+	
+	@DataProvider(name="dp", indices = {0,3})
 	Object[][] loginData()
 	{
 		// Remember this data provider method is always runing 2 dimentional array only even if you have a 10 columns, 10 inputs still it will return
