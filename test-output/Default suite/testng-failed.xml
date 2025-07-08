@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="parameterization_DataProvider.DataProviderDemo">
+      <class name="parameterization_DataProvider.ParamTest">
         <methods>
-          <include name="testLogin" invocation-numbers="0 1 2"/>
+          <include name="testLogo"/>
+          <include name="tearDown"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- parameterization_DataProvider.DataProviderDemo -->
+      </class> <!-- parameterization_DataProvider.ParamTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
